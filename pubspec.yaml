@@ -1,0 +1,27 @@
+name: infinimesh_timeseries_app
+version: 0.0.0+1
+publish_to: none
+description: Infinimesh timeseries app
+environment:
+  sdk: ">=3.2.5 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  http: 1.2.0
+  webview_flutter: 4.5.0
+  get_storage: 2.1.1
+  google_fonts: 6.1.0
+  auto_size_text: 3.0.0
+  flutter_exit_app: 1.1.2
+  shimmer: 3.0.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: 3.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
